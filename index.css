@@ -6,3 +6,7 @@ form{
     display: flex;
     justify-content: space-between;
 }
+button{
+    background-color: greenyellow;
+    border-radius: 250px;
+}

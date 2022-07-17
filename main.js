@@ -11,10 +11,10 @@ incomeOverTime (45,days,totals)
 console.log(inputA)
 })
 function totalProduce(A,B,C,D){
-let production=`total production in shed A ${A} litres\n 
-total production in shed B ${B} litres\n
-total production in shed C ${C}  litres\n
-total production in shed D ${D}litres`
+let production=`Your production in shed A ${A} litres\n 
+Your production in shed B ${B} litres\n
+Your production in shed C ${C}  litres\n
+Your production in shed D ${D}litres`
 totalProduce=parseInt(A)+parseInt(B)+parseInt(C)+parseInt(D)
 console.log(production);
 let holder=document.getElementById("produce")
