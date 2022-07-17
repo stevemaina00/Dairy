@@ -6,7 +6,7 @@ let inputB=document.getElementById("shedB").value
 let inputC=document.getElementById("shedC").value
 let inputD=document.getElementById("shedD").value
 let days=document.getElementById("days").value
-let totals=totalProduce(shedA,inputB,inputC,inputD);
+let totals=totalProduce(inputA,inputB,inputC,inputD);
 incomeOverTime (45,days,totals)
 console.log(inputA)
 })
