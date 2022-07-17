@@ -4,7 +4,7 @@ btn.addEventListener("click",(event)=>{
 let inputA=document.getElementById("shedA").value
 let inputB=document.getElementById("shedB").value
 let inputC=document.getElementById("shedC").value
-let inputD=document.getElementById("inputD").value
+let inputD=document.getElementById("shedD").value
 let days=document.getElementById("days").value
 let totals=totalProduce(inputA,inputB,inputC,inputD);
 incomeOverTime (45,days,totals)
